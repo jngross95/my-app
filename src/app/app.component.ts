@@ -8,7 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'my-app';
 
-  f1():string {
+  f1():string
+      {
     const x =10
     return ""
   }
