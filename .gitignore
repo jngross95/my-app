@@ -44,3 +44,11 @@ testem.log
 .DS_Store
 Thumbs.db
 *.mp4
+
+cypress/screenshots
+cypress/videos
+cypress/results
+cypress/mochawesome.json
+mochawesome-report
+mochawesome-report.html
+

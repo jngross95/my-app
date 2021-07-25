@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "cypress": "cypress open",
-    "cypress-run": "cypress run"
+    "cypress-run": "bash run-integrationtest.sh"
   },
   "private": true,
   "dependencies": {
@@ -46,6 +46,9 @@
     "karma-coverage": "~2.0.3",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
+    "mochawesome": "^6.2.2",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^5.2.0",
     "typescript": "~4.3.2"
   }
 }
