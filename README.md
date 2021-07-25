@@ -30,3 +30,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 npm install --save-dev mochawesome mochawesome-merge mochawesome-report-generator
 
+cypress=$(buildah from cypress/included:6.2.1)
+buildah config --workingdir=/my-app "$cypress"
+buildah run -v "$PWD:/my-app" "$cypress" -- cypress run --browser chrome
