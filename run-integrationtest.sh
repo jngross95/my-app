@@ -2,5 +2,5 @@
 
 #./node_modules/cypress/bin/
 cypress run
-npx mochawesome-merge 'cypress/results/*_*.json' > ./cypress/mochawesome.json
-npx marge ./cypress/mochawesome.json
+npx mochawesome-merge 'cypress/results/*_*.json' > ./mochawesome.json
+npx marge mochawesome.json

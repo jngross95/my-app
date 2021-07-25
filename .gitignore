@@ -50,5 +50,4 @@ cypress/videos
 cypress/results
 cypress/mochawesome.json
 mochawesome-report
-mochawesome-report.html
 
